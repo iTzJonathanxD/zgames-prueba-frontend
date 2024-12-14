@@ -29,7 +29,7 @@ Asegúrate de tener instalados los siguientes componentes antes de comenzar:
 
 2. Accede al directorio del proyecto:
    ```bash
-   cd tu-repositorio
+   cd zgames-prueba-frontend
    ```
 
 3. Instala las dependencias necesarias:
