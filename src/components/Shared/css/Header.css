@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: linear-gradient(135deg, #f9f9ff, #e3f5fc);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .header-logo h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+    font-weight: 700;
+  }
+  
+  .header-nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .header-btn {
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .header-login-btn {
+    background: #6b92ff;
+    color: #fff;
+  }
+  
+  .header-login-btn:hover {
+    background: #4f78e0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(107, 146, 255, 0.4);
+  }
+  
+  .header-register-btn {
+    background: #ff8ba7;
+    color: #fff;
+  }
+  
+  .header-register-btn:hover {
+    background: #ff6885;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(255, 104, 133, 0.4);
+  }
+  

@@ -1,0 +1,19 @@
+.property-list-container {
+    margin-bottom: 20px;
+  }
+  
+  .property-list-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .property-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .no-properties-message {
+    text-align: center;
+    color: #684f4f;
+  }
+  

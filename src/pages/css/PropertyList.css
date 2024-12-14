@@ -1,0 +1,121 @@
+/* General Styles */
+.property-management-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #ffffff, #e0e7ff);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #0044cc;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Filters Section */
+  .filters-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+  
+  .filter-input:focus {
+    border-color: #0044cc;
+  }
+  
+  /* Table Styles */
+  .property-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .property-table th,
+  .property-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #cbd5e1;
+  }
+  
+  .property-table th {
+    background-color: #0044cc;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .property-table tr:nth-child(even) {
+    background-color: #f9fafb;
+  }
+  
+  .property-row:hover {
+    background-color: #e0e7ff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .no-properties-message {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    padding: 20px;
+  }
+  
+  /* Loading and Error Styles */
+  .loading-container,
+  .error-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .loading-message,
+  .error-message {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .filters-container {
+      flex-direction: column;
+    }
+  
+    .filter-input {
+      margin-bottom: 10px;
+    }
+  
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
